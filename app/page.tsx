@@ -1,6 +1,5 @@
 import './globals.css'
-import '@next/font'
-import News from './news/page'
+import News from './news/NewsList'
 
 async function getNews(){
     const res = await fetch('https://api.spaceflightnewsapi.net/v3/articles')
